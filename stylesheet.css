@@ -2,3 +2,19 @@
 h1{
 	color:blue;
 }
+.btn{
+	padding:8px 24px;
+	background-color:rgba(200,200,200,0.8);
+	box-shadow:0 7px #646464;
+	color:white;
+	display: block;
+    text-align: center;
+}
+.btn:hover{
+	cursor:pointer;
+	opacity:1;
+}
+.btn:active{
+	positon:relative;
+	top:7px;
+}
