@@ -3,19 +3,22 @@ h1{
 	color:blue;
 }
 .btn{
+	text-align:center;
+}
+span{
 	padding:8px 24px;
-	background-color:rgba(200,200,200,0.8);
+	background-color:rgb(200,200,200);
 	box-shadow:0 7px #646464;
 	color:white;
-	display: block;
-    text-align: center;
+	opacity:0.8;
+	display:inline-block;
 }
-.btn:hover{
+span:hover{
 	cursor:pointer;
 	opacity:1;
 }
-.btn:active{
-	positon:relative;
+span:active{
+	position:relative;
 	box-shadow:none;
 	top:7px;
 }
