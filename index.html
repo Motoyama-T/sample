@@ -11,13 +11,23 @@
 
   	<h1>Hello, HTML&CSS!</h1>
   	<div>
-  		<img src="image.png">
+  		<img id="testImage" src="image.png">
 	</div>
-
+	<!--
   	<div class="btn">
   		<span>ボタン</span>
   	</div>
-
-  	<script src="script.js"></script>
+	-->
+	<button onclick="test()">表示/非表示</button>
+  	<script>
+		function test(){
+			var img = document.getElementById("testImage");
+			if (img.style.visibility === "hidden"){
+				img.style.visibility = "visible";
+			}else{
+				img.style.visibility = "hidden";
+			}
+		}
+	</script>
   </body>
 </html>
